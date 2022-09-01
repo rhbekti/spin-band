@@ -5,13 +5,13 @@ text{
     font-size:11px;
     pointer-events:none;
 }
-#chart{
+/* #chart{
     position:absolute;
     width:500px;
     height:500px;
     top:2rem;
     left:3rem;
-}
+} */
 #question h1{
     margin-top: 5rem;
     font-size: 50px;
