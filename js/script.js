@@ -10,12 +10,12 @@ var padding = {top:20, right:40, bottom:0, left:0},
             randomNumbers = getRandomNumbers();
 
         var data = [
-                    {"label":"SMAN 2 YOGYAKARTA",  "value":1,  "question":"SMAN 2 YOGYAKARTA"},
-                    {"label":"SMKN 3 YOGYAKARTA",  "value":2,  "question":"SMKN 3 YOGYAKARTA"},
-                    {"label":"SMAN 7 YOGYAKARTA",  "value":3,  "question":"SMAN 7 YOGYAKARTA"},
-                    {"label":"SMA BOKPRI 2 YOGYAKARTA",  "value":4,  "question":"SMA BOKPRI 2 YOGYAKARTA"},
-                    {"label":"SMAN 8 YOGYAKARTA",  "value":5,  "question":"SMAN 8 YOGYAKARTA"},
-                    {"label":"SMAN 1 YOGYAKARTA",  "value":6,  "question":"SMAN 1 YOGYAKARTA"},
+                    {"label":"1",  "value":1,  "question":"1"},
+                    {"label":"2",  "value":2,  "question":"2"},
+                    {"label":"3",  "value":3,  "question":"3"},
+                    {"label":"4",  "value":4,  "question":"4"},
+                    {"label":"5",  "value":5,  "question":"5"},
+                    {"label":"6",  "value":6,  "question":"6"},
         ];
         var svg = d3.select('#chart')
             .append("svg")
