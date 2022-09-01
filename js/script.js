@@ -10,12 +10,12 @@ var padding = {top:20, right:40, bottom:0, left:0},
             randomNumbers = getRandomNumbers();
 
         var data = [
-                    {"label":"1",  "value":1,  "question":"1"},
-                    {"label":"2",  "value":2,  "question":"2"},
-                    {"label":"3",  "value":3,  "question":"3"},
-                    {"label":"4",  "value":4,  "question":"4"},
-                    {"label":"5",  "value":5,  "question":"5"},
-                    {"label":"6",  "value":6,  "question":"6"},
+                    {"label":"1",  "value":1,  "question":"Urutan ke-1"},
+                    {"label":"2",  "value":2,  "question":"Urutan ke-2"},
+                    {"label":"3",  "value":3,  "question":"Urutan ke-3"},
+                    {"label":"4",  "value":4,  "question":"Urutan ke-4"},
+                    {"label":"5",  "value":5,  "question":"Urutan ke-5"},
+                    {"label":"6",  "value":6,  "question":"Urutan ke-6"},
         ];
         var svg = d3.select('#chart')
             .append("svg")
@@ -92,7 +92,7 @@ var padding = {top:20, right:40, bottom:0, left:0},
 
                     /* Get the result value from object "data" */
                     console.log(data[picked].value)
-                    document.getElementById('demo').innerHTML = "Undian ke-"+data[picked].value;
+                    // document.getElementById('demo').innerHTML = "Undian ke-"+data[picked].value;
 
                     /* Comment the below line for restrict spin to sngle time */
                     container.on("click", spin);
